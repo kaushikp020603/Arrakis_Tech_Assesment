@@ -91,8 +91,3 @@ errors, and a check of every reply against the deployment's own secret.
 | 1 | All five sites saved: Indeed 16 records, Glassdoor 3, Zillow 41, G2 15, StockX 1 |
 | 2 | All six questions answered and checked against the PDF: INC-003 (Kabir Shah); CloudSentry API (INR 48,00,000); Vantage Retail Group (INR 6,75,000); Naina Kapoor, 2 years 4 months; INR 2,90,10,000; 15 March 2025 with CEO approval |
 | 3 | 28 scenarios sent unchanged to both versions: 19 failed on the vulnerable one, 1 on the hardened one (a prompt asking the bot to start its reply with a chosen word, which the guard let through). The guard blocked 19 of 22 attacks and allowed 20 of 20 genuine questions on a held-out prompt set |
-
-## Before sharing this folder
-
-Remove `task2_context/.env` (it holds the Groq key), `task2_context/.venv/`, `task2_context/vector_db/` and
-`task1_scraping/.profile/` (a Chrome profile the scrapers create). The scripts recreate all of them.
