@@ -94,8 +94,6 @@ and Zillow's first attempt is a plain request with no browser at all.
 - **Terms of use.** These sites restrict automated access. Keep to the assessment and low request volume; repeated runs
   once made one site restrict the IP for a while. `live_scrape.py` uses browser impersonation for Zillow and launches
   Chrome with flags that reduce automation signals. Decide whether that is acceptable before using it elsewhere.
-- **`.profile/`** is the Chrome profile the scripts create (cookies, cache, sessions). It is not part of the deliverable;
-  delete it before sharing the folder. The scripts recreate it.
 
 ## Files
 

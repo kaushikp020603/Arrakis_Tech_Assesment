@@ -1,4 +1,3 @@
-# secrets and local-only folders: never upload
 .env
 .venv/
 vector_db/

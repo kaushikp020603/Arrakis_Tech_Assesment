@@ -37,8 +37,7 @@ Then open `.env` and put the key after `GROQ_API_KEY=`:
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
 ```
 
-The key is read only from `.env` (git-ignored) and is never written into the code. The first run also downloads the
-embedding model (about 90 MB) and the EasyOCR models.
+The first run also downloads the embedding model (about 90 MB) and the EasyOCR models.
 
 ## Run
 
