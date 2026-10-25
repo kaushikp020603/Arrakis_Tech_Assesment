@@ -174,4 +174,3 @@ task2_context/
 - **Groq says the model does not exist or you have no access**: the default model is not enabled for your key. Set
   `GROQ_MODEL` in `.env` to one your key can use.
 - **Rate-limit errors**: the client retries automatically; on the free tier wait a minute and run again.
-- **Before sharing the project**: do not include `.env`, `.venv/` or `vector_db/`.
