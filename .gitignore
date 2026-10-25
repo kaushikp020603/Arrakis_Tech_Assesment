@@ -1,0 +1,8 @@
+# secrets and local-only folders: never upload
+.env
+.venv/
+vector_db/
+task1_scraping/.profile/
+__pycache__/
+*.pyc
+task3_llm_security/data/users.json

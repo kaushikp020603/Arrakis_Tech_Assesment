@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "items": [
+    {
+      "review_star_rating": "1",
+      "review_title": "Great perks but challenging management and bureaucracy"
+    },
+    {
+      "review_star_rating": "5",
+      "review_title": "Supportive team and benefits, but growth is limited"
+    },
+    {
+      "review_star_rating": "2",
+      "review_title": "Great benefits and culture, but apprenticeship lacks support"
+    }
+  ]
+}

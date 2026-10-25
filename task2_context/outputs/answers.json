@@ -1,0 +1,441 @@
+{
+  "generated_at": "2026-10-25T12:26:38",
+  "source_pdf": "Meridian_Grid_Internal_Dossier.pdf",
+  "llm": "openai/gpt-oss-120b",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "retrieval": {
+    "type": "hybrid: cosine (dense) + BM25, weighted RRF",
+    "top_k": 7,
+    "chunk_size": 700,
+    "chunk_overlap": 120
+  },
+  "memory": "reset for every question",
+  "results": [
+    {
+      "id": 1,
+      "question": "Which incident had the highest reconciled cost, and who was the on-call engineer for it?",
+      "answer": "The costliest incident is **INC‑003** (April 2023) with a reconciled cost of **₹61,00,000**; the on‑call engineer for that incident was **Kabir Shah**【3†L3-L4】. This is confirmed as the “single costliest incident in company history”【7†L1-L2】.",
+      "standalone_question": "Which incident had the highest reconciled cost, and who was the on-call engineer for it?",
+      "sources": [
+        {
+          "id": "chunk-024",
+          "section": "6.1 Severity Weight Table",
+          "page": 7,
+          "kind": "text",
+          "cosine": 0.3741,
+          "bm25": 7.225,
+          "rrf": 0.03175
+        },
+        {
+          "id": "chunk-031",
+          "section": "8.3 Finding 3 — On-Call Roster Redundancy (Medium)",
+          "page": 9,
+          "kind": "text",
+          "cosine": 0.4094,
+          "bm25": 3.85,
+          "rrf": 0.03132
+        },
+        {
+          "id": "chunk-015",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "table",
+          "cosine": 0.319,
+          "bm25": 9.023,
+          "rrf": 0.03132
+        },
+        {
+          "id": "chunk-014",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.387,
+          "bm25": 5.091,
+          "rrf": 0.03126
+        },
+        {
+          "id": "chunk-033",
+          "section": "9. Appendix A — Glossary & Supplementary Notes",
+          "page": 11,
+          "kind": "text",
+          "cosine": 0.3655,
+          "bm25": 4.89,
+          "rrf": 0.03054
+        },
+        {
+          "id": "chunk-011",
+          "section": "3.2 SOC On-Call Roster (Reference)",
+          "page": 4,
+          "kind": "text",
+          "cosine": 0.2746,
+          "bm25": 6.889,
+          "rrf": 0.03016
+        },
+        {
+          "id": "chunk-016",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.4003,
+          "bm25": 1.037,
+          "rrf": 0.02964
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which vendor was flagged as a compliance risk in the Q3 audit, and what is its annual contract cost?",
+      "answer": "The Q3 FY2024‑25 compliance audit flagged **CloudSentry API** as a compliance risk (it was identified for review after its involvement in INC‑004)【1†L1-L3】. Its annual contract cost is **INR 48,00,000**【4†L1-L3】.",
+      "standalone_question": "Which vendor was flagged as a compliance risk in the Q3 audit, and what is its annual contract cost?",
+      "sources": [
+        {
+          "id": "chunk-027",
+          "section": "7. Infrastructure & Vendor Inventory",
+          "page": 8,
+          "kind": "text",
+          "cosine": 0.5367,
+          "bm25": 13.154,
+          "rrf": 0.03252
+        },
+        {
+          "id": "chunk-028",
+          "section": "8. Compliance Audit Findings — Q3 FY2024-25",
+          "page": 9,
+          "kind": "text",
+          "cosine": 0.6818,
+          "bm25": 10.263,
+          "rrf": 0.03227
+        },
+        {
+          "id": "chunk-025",
+          "section": "7. Infrastructure & Vendor Inventory",
+          "page": 8,
+          "kind": "text",
+          "cosine": 0.5253,
+          "bm25": 5.945,
+          "rrf": 0.0315
+        },
+        {
+          "id": "chunk-026",
+          "section": "7. Infrastructure & Vendor Inventory",
+          "page": 8,
+          "kind": "table",
+          "cosine": 0.4121,
+          "bm25": 11.131,
+          "rrf": 0.03062
+        },
+        {
+          "id": "chunk-029",
+          "section": "8.1 Finding 1 — Vendor Data Residency Risk (High)",
+          "page": 9,
+          "kind": "text",
+          "cosine": 0.4297,
+          "bm25": 5.269,
+          "rrf": 0.03054
+        },
+        {
+          "id": "chunk-007",
+          "section": "2.1 Timeline of Major Milestones",
+          "page": 3,
+          "kind": "table",
+          "cosine": 0.409,
+          "bm25": 4.12,
+          "rrf": 0.02944
+        },
+        {
+          "id": "chunk-016",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.4754,
+          "bm25": 2.661,
+          "rrf": 0.02932
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which client received the \"Firewall Rule Auto-Validator v2\" tool, and what is that client's monthly revenue?",
+      "answer": "The **Vantage Retail Group** received the Firewall Rule Auto‑Validator v2 tool. Its monthly revenue is **₹6,75,000** (INR) 【1†L1-L3】【3†L1-L3】.",
+      "standalone_question": "Which client received the \"Firewall Rule Auto-Validator v2\" tool, and what is that client's monthly revenue?",
+      "sources": [
+        {
+          "id": "chunk-020",
+          "section": "5. Client Deployment Portfolio",
+          "page": 6,
+          "kind": "text",
+          "cosine": 0.5243,
+          "bm25": 17.513,
+          "rrf": 0.03252
+        },
+        {
+          "id": "chunk-017",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.6944,
+          "bm25": 15.773,
+          "rrf": 0.03227
+        },
+        {
+          "id": "chunk-019",
+          "section": "5. Client Deployment Portfolio",
+          "page": 6,
+          "kind": "table",
+          "cosine": 0.4574,
+          "bm25": 16.218,
+          "rrf": 0.03175
+        },
+        {
+          "id": "chunk-016",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.4771,
+          "bm25": 3.876,
+          "rrf": 0.03126
+        },
+        {
+          "id": "chunk-015",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "table",
+          "cosine": 0.3792,
+          "bm25": 4.205,
+          "rrf": 0.03033
+        },
+        {
+          "id": "chunk-029",
+          "section": "8.1 Finding 1 — Vendor Data Residency Risk (High)",
+          "page": 9,
+          "kind": "text",
+          "cosine": 0.3448,
+          "bm25": 0.741,
+          "rrf": 0.02924
+        },
+        {
+          "id": "chunk-027",
+          "section": "7. Infrastructure & Vendor Inventory",
+          "page": 8,
+          "kind": "text",
+          "cosine": 0.3575,
+          "bm25": 0.597,
+          "rrf": 0.02899
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Who was Head of Security during the company's founding year, and how long did they hold the role?",
+      "answer": "**Head of Security in the founding year (2019):** Naina Kapoor  \n\n**Length of tenure:** From the company’s incorporation in April 2019 until her departure in August 2021 – a period of **2 years 4 months** (April 2019 → April 2021 = 2 years, plus May‑August 2021 = 4 months)【1†L1-L3】.",
+      "standalone_question": "Who was Head of Security during the company's founding year, and how long did they hold the role?",
+      "sources": [
+        {
+          "id": "chunk-010",
+          "section": "3.1 Head of Security — Historical Tenure",
+          "page": 4,
+          "kind": "text",
+          "cosine": 0.5003,
+          "bm25": 13.721,
+          "rrf": 0.03279
+        },
+        {
+          "id": "chunk-009",
+          "section": "3. Organizational Structure & Personnel History",
+          "page": 4,
+          "kind": "text",
+          "cosine": 0.4395,
+          "bm25": 6.606,
+          "rrf": 0.032
+        },
+        {
+          "id": "chunk-005",
+          "section": "2. Company Background & Timeline",
+          "page": 3,
+          "kind": "text",
+          "cosine": 0.4961,
+          "bm25": 4.494,
+          "rrf": 0.03105
+        },
+        {
+          "id": "chunk-004",
+          "section": "2. Company Background & Timeline",
+          "page": 3,
+          "kind": "text",
+          "cosine": 0.3247,
+          "bm25": 4.658,
+          "rrf": 0.03008
+        },
+        {
+          "id": "chunk-007",
+          "section": "2.1 Timeline of Major Milestones",
+          "page": 3,
+          "kind": "table",
+          "cosine": 0.2723,
+          "bm25": 6.306,
+          "rrf": 0.02976
+        },
+        {
+          "id": "chunk-001",
+          "section": "1. Executive Summary",
+          "page": 2,
+          "kind": "text",
+          "cosine": 0.3494,
+          "bm25": 2.118,
+          "rrf": 0.02885
+        },
+        {
+          "id": "chunk-016",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.2976,
+          "bm25": 2.616,
+          "rrf": 0.02879
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Using the severity-weighting table in Section 6, what is the total severity-weighted cost of all incidents caused by \"misconfigured firewall rule\"?",
+      "answer": "**Total severity‑weighted cost for “mis‑configured firewall rule” incidents: INR 2,90,10,000**\n\n**Calculation**\n\n| Incident | Severity (from [6]) | Cost (INR) | Weight (from [3]) | Weighted Cost |\n|----------|--------------------|------------|-------------------|---------------|\n| INC‑001 | High | 22,50,000 | 2.0 × | 22,50,000 × 2.0 = 45,00,000 |\n| INC‑003 | Critical | 61,00,000 | 4.0 × | 61,00,000 × 4.0 = 2,44,00,000 |\n| INC‑005 | Low | 1,10,000 | 1.0 × | 1,10,000 × 1.0 = 1,10,000 |\n\n**Sum of weighted costs**\n\n45,00,000 + 2,44,00,000 + 1,10,000 = 2,90,10,000 INR  \n\n(Verified arithmetic.)\n\n**Sources**  \n- Severity‑weight multipliers: (Section 6.1 Severity Weight Table; excerpt [3])  \n- Incident details (IDs, severity, cost, root cause): (Section 4 Incident Response Log; excerpt [6])",
+      "standalone_question": "Using the severity-weighting table in Section 6, what is the total severity-weighted cost of all incidents caused by \"misconfigured firewall rule\"?",
+      "sources": [
+        {
+          "id": "chunk-024",
+          "section": "6.1 Severity Weight Table",
+          "page": 7,
+          "kind": "text",
+          "cosine": 0.6842,
+          "bm25": 17.637,
+          "rrf": 0.03279
+        },
+        {
+          "id": "chunk-021",
+          "section": "6. Risk Register & Severity Weighting Methodology",
+          "page": 7,
+          "kind": "text",
+          "cosine": 0.5493,
+          "bm25": 15.01,
+          "rrf": 0.03151
+        },
+        {
+          "id": "chunk-023",
+          "section": "6.1 Severity Weight Table",
+          "page": 7,
+          "kind": "table",
+          "cosine": 0.5756,
+          "bm25": 7.729,
+          "rrf": 0.03128
+        },
+        {
+          "id": "chunk-022",
+          "section": "6.1 Severity Weight Table",
+          "page": 7,
+          "kind": "text",
+          "cosine": 0.559,
+          "bm25": 9.668,
+          "rrf": 0.03126
+        },
+        {
+          "id": "chunk-014",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.5533,
+          "bm25": 13.137,
+          "rrf": 0.03125
+        },
+        {
+          "id": "chunk-015",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "table",
+          "cosine": 0.4922,
+          "bm25": 14.868,
+          "rrf": 0.0308
+        },
+        {
+          "id": "chunk-017",
+          "section": "4. Incident Response Log (January 2022 – August 2024)",
+          "page": 5,
+          "kind": "text",
+          "cosine": 0.5187,
+          "bm25": 5.659,
+          "rrf": 0.02944
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "According to Appendix B, what is the renewal date for the SentinelWatch SIEM contract, and who must approve it?",
+      "answer": "- **Renewal date:** 15 March 2025 (see the vendor memo)【1】  \n- **Required approver:** The CEO must sign‑off on the renewal before the Head of Finance & Operations can execute it【1】.",
+      "standalone_question": "According to Appendix B, what is the renewal date for the SentinelWatch SIEM contract, and who must approve it?",
+      "sources": [
+        {
+          "id": "chunk-036",
+          "section": "Appendix B - Scanned Vendor Memo (OCR of page image)",
+          "page": 13,
+          "kind": "ocr",
+          "cosine": 0.7079,
+          "bm25": 18.574,
+          "rrf": 0.03279
+        },
+        {
+          "id": "chunk-026",
+          "section": "7. Infrastructure & Vendor Inventory",
+          "page": 8,
+          "kind": "table",
+          "cosine": 0.4879,
+          "bm25": 8.074,
+          "rrf": 0.032
+        },
+        {
+          "id": "chunk-032",
+          "section": "8.4 Finding 4 — Access Review Cadence (Low)",
+          "page": 9,
+          "kind": "text",
+          "cosine": 0.574,
+          "bm25": 4.889,
+          "rrf": 0.03175
+        },
+        {
+          "id": "chunk-033",
+          "section": "9. Appendix A — Glossary & Supplementary Notes",
+          "page": 11,
+          "kind": "text",
+          "cosine": 0.4107,
+          "bm25": 4.181,
+          "rrf": 0.03054
+        },
+        {
+          "id": "chunk-027",
+          "section": "7. Infrastructure & Vendor Inventory",
+          "page": 8,
+          "kind": "text",
+          "cosine": 0.3908,
+          "bm25": 2.481,
+          "rrf": 0.02963
+        },
+        {
+          "id": "chunk-019",
+          "section": "5. Client Deployment Portfolio",
+          "page": 6,
+          "kind": "table",
+          "cosine": 0.3939,
+          "bm25": 1.241,
+          "rrf": 0.02921
+        },
+        {
+          "id": "chunk-029",
+          "section": "8.1 Finding 1 — Vendor Data Residency Risk (High)",
+          "page": 9,
+          "kind": "text",
+          "cosine": 0.3425,
+          "bm25": 1.829,
+          "rrf": 0.02899
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "text": "[Section: Front matter | Page 1 | text]\nMERIDIAN GRID SECURITY PVT LTD Internal Operations Dossier Confidential — Compiled for Internal Review, Q3 FY2024-25",
+    "page": 1,
+    "section": "Front matter",
+    "kind": "text",
+    "id": "chunk-000"
+  },
+  {
+    "text": "[Section: 1. Executive Summary | Page 2 | text]\n1. Executive Summary Meridian Grid Security Pvt Ltd (\"Meridian Grid\") is a Mumbai-headquartered managed security and infrastructure-hardening firm serving mid-market retail, fintech, and logistics clients across South and Southeast Asia. This dossier consolidates the organization's operating history, personnel records, incident response log, vendor inventory, client deployment portfolio, risk register, and the findings of the most recent internal compliance audit. It is intended as a single reference document for leadership review ahead of the FY2024-25 board meeting. The company has grown from a three-person consultancy in 2019 to a 41-person operation as of this",
+    "page": 2,
+    "section": "1. Executive Summary",
+    "kind": "text",
+    "id": "chunk-001"
+  },
+  {
+    "text": "[Section: 1. Executive Summary | Page 2 | text]\nThe company has grown from a three-person consultancy in 2019 to a 41-person operation as of this writing, with a dedicated Security Operations Center (SOC) handling both proactive monitoring and incident response for eleven active client deployments. Over the review period, the SOC logged six reportable incidents of varying severity, none of which resulted in confirmed data exfiltration, though two triggered mandatory client notification under contractual SLAs. This document deliberately consolidates information that in normal operations lives across separate systems — HR records, the incident tracker, the vendor management platform, the client CRM, and the",
+    "page": 2,
+    "section": "1. Executive Summary",
+    "kind": "text",
+    "id": "chunk-002"
+  },
+  {
+    "text": "[Section: 1. Executive Summary | Page 2 | text]\nsystems — HR records, the incident tracker, the vendor management platform, the client CRM, and the audit findings register — into one file, so that any single question about the business may require checking more than one section.",
+    "page": 2,
+    "section": "1. Executive Summary",
+    "kind": "text",
+    "id": "chunk-003"
+  },
+  {
+    "text": "[Section: 2. Company Background & Timeline | Page 3 | text]\n2. Company Background & Timeline Meridian Grid was founded in April 2019 by Aarav Mehta, previously a network security lead at a Bengaluru-based payments processor. The company was incorporated with two additional co-founders handling business development and finance respectively, though neither remains with the company today. Meridian Grid's first office was a shared workspace in Andheri East, Mumbai; the company relocated to a dedicated office in Powai in early 2021 as headcount crossed fifteen. The founding thesis of the business was that mid-market companies in India and neighboring markets",
+    "page": 3,
+    "section": "2. Company Background & Timeline",
+    "kind": "text",
+    "id": "chunk-004"
+  },
+  {
+    "text": "[Section: 2. Company Background & Timeline | Page 3 | text]\nThe founding thesis of the business was that mid-market companies in India and neighboring markets were underserved by security vendors who typically focus on large enterprise accounts, and that a leaner, retainer-based model combining penetration testing, SOC-as-a-service, and infrastructure hardening could capture that segment profitably.",
+    "page": 3,
+    "section": "2. Company Background & Timeline",
+    "kind": "text",
+    "id": "chunk-005"
+  },
+  {
+    "text": "[Section: 2.1 Timeline of Major Milestones | Page 3 | text]\n2.1 Timeline of Major Milestones",
+    "page": 3,
+    "section": "2.1 Timeline of Major Milestones",
+    "kind": "text",
+    "id": "chunk-006"
+  },
+  {
+    "text": "[Section: 2.1 Timeline of Major Milestones | Page 3 | table]\nYear: 2019; Milestone: Company founded; first client (a regional logistics firm) onboarded in June 2019.\nYear: 2020; Milestone: Remote-first SOC model adopted during the pandemic; headcount reaches 9.\nYear: 2021; Milestone: Office relocated to Powai; first enterprise-tier client (Vantage Retail Group) signed.\nYear: 2022; Milestone: ISO 27001 certification achieved; SOC begins 24x7 shift coverage.\nYear: 2023; Milestone: Expansion into Southeast Asia with a Singapore-registered subsidiary.\nYear: 2024; Milestone: Internal compliance audit conducted in Q3 (findings detailed in Section 7).",
+    "page": 3,
+    "section": "2.1 Timeline of Major Milestones",
+    "kind": "table",
+    "id": "chunk-007"
+  },
+  {
+    "text": "[Section: 2.1 Timeline of Major Milestones | Page 3 | text]\nThe company's fiscal year runs April to March. All monetary figures in this dossier are in Indian Rupees (INR) unless otherwise stated.",
+    "page": 3,
+    "section": "2.1 Timeline of Major Milestones",
+    "kind": "text",
+    "id": "chunk-008"
+  },
+  {
+    "text": "[Section: 3. Organizational Structure & Personnel History | Page 4 | text]\n3. Organizational Structure & Personnel History Meridian Grid operates a flat structure below the founder level, with four functional leads reporting directly to the CEO: Head of Security, Head of Client Delivery, Head of Engineering, and Head of Finance & Operations. The Head of Security role has particular relevance to this dossier as it owns both the incident response function and the vendor risk sign-off process described in later sections.",
+    "page": 4,
+    "section": "3. Organizational Structure & Personnel History",
+    "kind": "text",
+    "id": "chunk-009"
+  },
+  {
+    "text": "[Section: 3.1 Head of Security — Historical Tenure | Page 4 | text]\n3.1 Head of Security — Historical Tenure Naina Kapoor served as the founding Head of Security from the company's incorporation in April 2019 until her departure in August 2021 to join a venture-backed startup. She was succeeded by Rohan Bhatt, who had previously been a senior SOC analyst at the company since 2020 and was promoted internally. Rohan Bhatt continues to hold the Head of Security role as of this writing.",
+    "page": 4,
+    "section": "3.1 Head of Security — Historical Tenure",
+    "kind": "text",
+    "id": "chunk-010"
+  },
+  {
+    "text": "[Section: 3.2 SOC On-Call Roster (Reference) | Page 4 | text]\n3.2 SOC On-Call Roster (Reference) The SOC maintains a rotating on-call roster among four senior engineers. The roster below reflects primary on-call assignment by engineer; it is referenced elsewhere in this dossier in relation to specific incidents and is not itself an incident record.",
+    "page": 4,
+    "section": "3.2 SOC On-Call Roster (Reference)",
+    "kind": "text",
+    "id": "chunk-011"
+  },
+  {
+    "text": "[Section: 3.2 SOC On-Call Roster (Reference) | Page 4 | table]\nEngineer: Kabir Shah; Role: Senior SOC Engineer; Joined Meridian Grid: January 2021\nEngineer: Meera Iyer; Role: Senior SOC Engineer; Joined Meridian Grid: March 2022\nEngineer: Priya Nair; Role: Senior SOC Engineer; Joined Meridian Grid: July 2022\nEngineer: Devansh Rao; Role: SOC Engineer; Joined Meridian Grid: November 2023",
+    "page": 4,
+    "section": "3.2 SOC On-Call Roster (Reference)",
+    "kind": "table",
+    "id": "chunk-012"
+  },
+  {
+    "text": "[Section: 3.2 SOC On-Call Roster (Reference) | Page 4 | text]\nHeadcount by function as of Q3 FY2024-25: SOC & Incident Response (14), Penetration Testing & Advisory (9), Client Delivery & Account Management (7), Engineering & Tooling (6), Finance & Operations (5). The remaining headcount sits in the founder/leadership layer.",
+    "page": 4,
+    "section": "3.2 SOC On-Call Roster (Reference)",
+    "kind": "text",
+    "id": "chunk-013"
+  },
+  {
+    "text": "[Section: 4. Incident Response Log (January 2022 – August 2024) | Page 5 | text]\n4. Incident Response Log (January 2022 – August 2024) The following six incidents were logged by the SOC as reportable events during the review period, in chronological order. Cost figures represent total remediation and client-credit cost as reconciled by Finance, not raw estimated impact. Severity follows the internal four-tier scale (Low, Medium, High, Critical) whose numeric weighting is defined separately in Section 6 (Risk Register).",
+    "page": 5,
+    "section": "4. Incident Response Log (January 2022 – August 2024)",
+    "kind": "text",
+    "id": "chunk-014"
+  },
+  {
+    "text": "[Section: 4. Incident Response Log (January 2022 – August 2024) | Page 5 | table]\nID: INC-001; Date: 2022-06-02; Root Cause: Misconfigured firewall rule on client edge router; Severity: High; Cost (INR): 22,50,000; On-Call Engineer: Kabir Shah\nID: INC-002; Date: 2022-11-19; Root Cause: Expired TLS certificate on public-facing API gateway; Severity: Medium; Cost (INR): 4,20,000; On-Call Engineer: Meera Iyer\nID: INC-003; Date: 2023-04-08; Root Cause: Misconfigured firewall rule during VPN migration; Severity: Critical; Cost (INR): 61,00,000; On-Call Engineer: Kabir Shah\nID: INC-004; Date: 2023-09-30; Root Cause: Third-party vendor breach (CloudSentry API); Severity: High; Cost (INR): 35,00,000; On-Call Engineer: Priya Nair\nID: INC-005; Date: 2024-02-17; Root Cause: Misconfigured firewall rule on staging environment; Severity: Low; Cost (INR): 1,10,000; On-Call Engineer: Meera Iyer\nID: INC-006; Date: 2024-07-05; Root Cause: Credential stuffing attack on client admin portal; Severity: Medium; Cost (INR): 9,00,000; On-Call Engineer: Priya Nair",
+    "page": 5,
+    "section": "4. Incident Response Log (January 2022 – August 2024)",
+    "kind": "table",
+    "id": "chunk-015"
+  },
+  {
+    "text": "[Section: 4. Incident Response Log (January 2022 – August 2024) | Page 5 | text]\nINC-003 (April 2023) remains the single costliest incident in company history and triggered a mandatory client notification. It occurred during a planned VPN migration for a retail client when a firewall rule intended to be temporary was left in an overly permissive state for eleven days, exposing an internal inventory management endpoint. INC-004 (September 2023) was not caused by Meridian Grid's own misconfiguration but by a breach at a third-party API vendor integrated into a client's stack; this incident is referenced again in Section 7 in connection with audit findings on vendor risk.",
+    "page": 5,
+    "section": "4. Incident Response Log (January 2022 – August 2024)",
+    "kind": "text",
+    "id": "chunk-016"
+  },
+  {
+    "text": "[Section: 4. Incident Response Log (January 2022 – August 2024) | Page 5 | text]\nreferenced again in Section 7 in connection with audit findings on vendor risk. Following INC-003, the Engineering team developed an internal tool, the Firewall Rule Auto-Validator v2, which flags temporary firewall rules that have not been reverted within a configurable time window. This tool is referenced again in Section 5 in connection with client deployments.",
+    "page": 5,
+    "section": "4. Incident Response Log (January 2022 – August 2024)",
+    "kind": "text",
+    "id": "chunk-017"
+  },
+  {
+    "text": "[Section: 5. Client Deployment Portfolio | Page 6 | text]\n5. Client Deployment Portfolio Meridian Grid currently maintains eleven active client deployments. The table below lists the deployments relevant to cross-references elsewhere in this dossier; it is not the complete client list, which is maintained separately in the CRM for confidentiality reasons.",
+    "page": 6,
+    "section": "5. Client Deployment Portfolio",
+    "kind": "text",
+    "id": "chunk-018"
+  },
+  {
+    "text": "[Section: 5. Client Deployment Portfolio | Page 6 | table]\nClient: Vantage Retail Group; Sector: Retail; Deployment Type: Full SOC + Pen Test Retainer; Monthly Revenue (INR)Notable: 6,75,000; Tooling: Firewall Rule Auto-Validator v2 (deployed Nov 2023)\nClient: Solara Fintech; Sector: Fintech; Deployment Type: SOC Monitoring Only; Monthly Revenue (INR)Notable: 4,10,000; Tooling: Standard SIEM stack\nClient: Harborline Logistics; Sector: Logistics; Deployment Type: Pen Test Retainer; Monthly Revenue (INR)Notable: 2,25,000; Tooling: n/a\nClient: Nimbus Cloudworks; Sector: SaaS; Deployment Type: Full SOC + Infra Hardening; Monthly Revenue (INR)Notable: 8,90,000; Tooling: Custom IDS ruleset\nClient: Kestrel Freight Co.; Sector: Logistics; Deployment Type: SOC Monitoring Only; Monthly Revenue (INR)Notable: 3,00,000; Tooling: n/a",
+    "page": 6,
+    "section": "5. Client Deployment Portfolio",
+    "kind": "table",
+    "id": "chunk-019"
+  },
+  {
+    "text": "[Section: 5. Client Deployment Portfolio | Page 6 | text]\nVantage Retail Group was Meridian Grid's first enterprise-tier client, signed in 2021, and was also the client affected by INC-003. Following that incident, Vantage Retail Group's deployment was upgraded in November 2023 to include the Firewall Rule Auto-Validator v2 tool described in Section 4, at no additional license cost as part of the incident remediation agreement, though the client's monthly retainer listed above reflects the current full-service rate. Nimbus Cloudworks represents the largest single account by monthly revenue and was onboarded shortly after the Singapore subsidiary was established in 2023, as part of the initial Southeast Asia client pipeline.",
+    "page": 6,
+    "section": "5. Client Deployment Portfolio",
+    "kind": "text",
+    "id": "chunk-020"
+  },
+  {
+    "text": "[Section: 6. Risk Register & Severity Weighting Methodology | Page 7 | text]\n6. Risk Register & Severity Weighting Methodology Meridian Grid's internal risk register assigns a numeric weight to each severity tier used in the incident log (Section 4). This weighting is used internally for quarterly risk reporting to translate raw incident cost into a \"severity-weighted cost\" figure, which the Finance and Security functions use jointly to prioritize remediation investment. The methodology was formalized in 2022 following the ISO 27001 certification process and has not changed since.",
+    "page": 7,
+    "section": "6. Risk Register & Severity Weighting Methodology",
+    "kind": "text",
+    "id": "chunk-021"
+  },
+  {
+    "text": "[Section: 6.1 Severity Weight Table | Page 7 | text]\n6.1 Severity Weight Table",
+    "page": 7,
+    "section": "6.1 Severity Weight Table",
+    "kind": "text",
+    "id": "chunk-022"
+  },
+  {
+    "text": "[Section: 6.1 Severity Weight Table | Page 7 | table]\nSeverity Tier: Low; Weight Multiplier: 1.0x; Definition: Contained, no client impact, no notification required.\nSeverity Tier: Medium; Weight Multiplier: 1.5x; Definition: Limited client impact, internal remediation only.\nSeverity Tier: High; Weight Multiplier: 2.0x; Definition: Client-facing impact, remediation within SLA window.\nSeverity Tier: Critical; Weight Multiplier: 4.0x; Definition: Client notification mandatory, board-level visibility.",
+    "page": 7,
+    "section": "6.1 Severity Weight Table",
+    "kind": "table",
+    "id": "chunk-023"
+  },
+  {
+    "text": "[Section: 6.1 Severity Weight Table | Page 7 | text]\nThe severity-weighted cost for a given incident is calculated as the reconciled cost (Section 4) multiplied by the weight multiplier for its severity tier. This figure is reported quarterly per root-cause category so leadership can see which categories of failure carry the greatest weighted exposure, not merely the highest raw cost. As a matter of policy, the weighting table above is reviewed annually by the Head of Security and Head of Finance jointly and requires CEO sign-off to change; no changes have been made since the table's adoption in 2022, meaning it applies uniformly across all incidents listed in Section 4 regardless of when in the review period they occurred.",
+    "page": 7,
+    "section": "6.1 Severity Weight Table",
+    "kind": "text",
+    "id": "chunk-024"
+  },
+  {
+    "text": "[Section: 7. Infrastructure & Vendor Inventory | Page 8 | text]\n7. Infrastructure & Vendor Inventory Meridian Grid relies on a set of third-party vendors for tooling, cloud infrastructure, and API integrations used both internally and within client deployments. The table below lists vendors with active annual contracts exceeding INR 5,00,000, which are the vendors subject to annual risk review under company policy.",
+    "page": 8,
+    "section": "7. Infrastructure & Vendor Inventory",
+    "kind": "text",
+    "id": "chunk-025"
+  },
+  {
+    "text": "[Section: 7. Infrastructure & Vendor Inventory | Page 8 | table]\nVendor: CloudSentry API; Function: Third-party threat intelligence feed integrated into client SIEM pipelines; Annual Contract Cost (INR): 48,00,000\nVendor: Aegis Cloud Hosting; Function: Primary cloud infrastructure provider for SOC tooling; Annual Contract Cost (INR): 62,00,000\nVendor: SentinelWatch SIEM; Function: Core SIEM platform licensed for all monitored clients; Annual Contract Cost (INR): 39,50,000\nVendor: ProxyNet Threat Feeds; Function: Supplementary IP reputation and threat feed service; Annual Contract Cost (INR): 11,20,000",
+    "page": 8,
+    "section": "7. Infrastructure & Vendor Inventory",
+    "kind": "table",
+    "id": "chunk-026"
+  },
+  {
+    "text": "[Section: 7. Infrastructure & Vendor Inventory | Page 8 | text]\nCloudSentry API is the vendor implicated in INC-004 (Section 4). Following that incident, CloudSentry API's contract was flagged for review during the Q3 FY2024-25 compliance audit; the outcome of that review is detailed in Section 8.",
+    "page": 8,
+    "section": "7. Infrastructure & Vendor Inventory",
+    "kind": "text",
+    "id": "chunk-027"
+  },
+  {
+    "text": "[Section: 8. Compliance Audit Findings — Q3 FY2024-25 | Page 9 | text]\n8. Compliance Audit Findings — Q3 FY2024-25 An internal compliance audit was conducted in Q3 FY2024-25 by an external auditor engaged by the Head of Finance, covering data handling practices, vendor risk management, and incident response documentation. The audit produced four findings, summarized below in order of severity as rated by the auditor.",
+    "page": 9,
+    "section": "8. Compliance Audit Findings — Q3 FY2024-25",
+    "kind": "text",
+    "id": "chunk-028"
+  },
+  {
+    "text": "[Section: 8.1 Finding 1 — Vendor Data Residency Risk (High) | Page 9 | text]\n8.1 Finding 1 — Vendor Data Residency Risk (High) The audit found that CloudSentry API, the threat intelligence vendor listed in Section 7, processes client telemetry data on infrastructure located outside India without a data processing agreement that satisfies Meridian Grid's contractual data residency commitments to two clients. This finding is directly connected to the vendor's prior involvement in INC-004 (Section 4) and has been escalated for contract renegotiation or replacement within two quarters.",
+    "page": 9,
+    "section": "8.1 Finding 1 — Vendor Data Residency Risk (High)",
+    "kind": "text",
+    "id": "chunk-029"
+  },
+  {
+    "text": "[Section: 8.2 Finding 2 — Incident Documentation Gaps (Medium) | Page 9 | text]\n8.2 Finding 2 — Incident Documentation Gaps (Medium) Two of the six incidents in the review period (INC-002 and INC-005) lacked a completed post-incident review document within the company's mandated 10-business-day window, though both were eventually completed.",
+    "page": 9,
+    "section": "8.2 Finding 2 — Incident Documentation Gaps (Medium)",
+    "kind": "text",
+    "id": "chunk-030"
+  },
+  {
+    "text": "[Section: 8.3 Finding 3 — On-Call Roster Redundancy (Medium) | Page 9 | text]\n8.3 Finding 3 — On-Call Roster Redundancy (Medium) The auditor noted that only four engineers are on the senior on-call roster (Section 3.2) for a 14-person SOC function, creating single points of failure during simultaneous incidents. This finding did not reference any specific incident in the log.",
+    "page": 9,
+    "section": "8.3 Finding 3 — On-Call Roster Redundancy (Medium)",
+    "kind": "text",
+    "id": "chunk-031"
+  },
+  {
+    "text": "[Section: 8.4 Finding 4 — Access Review Cadence (Low) | Page 9 | text]\n8.4 Finding 4 — Access Review Cadence (Low) Quarterly access reviews for the SentinelWatch SIEM platform (Section 7) were found to be conducted on an inconsistent cadence, with one quarter skipped in FY2023-24.",
+    "page": 9,
+    "section": "8.4 Finding 4 — Access Review Cadence (Low)",
+    "kind": "text",
+    "id": "chunk-032"
+  },
+  {
+    "text": "[Section: 9. Appendix A — Glossary & Supplementary Notes | Page 11 | text]\n9. Appendix A — Glossary & Supplementary Notes SOC: Security Operations Center. SIEM: Security Information and Event Management. SLA: Service Level Agreement. The definitions below are provided for completeness and do not contain information relevant to the cross-referenced questions elsewhere in this dossier. Reconciled cost: the final remediation and client-credit cost for an incident as agreed between Meridian Grid Finance and the affected client, which may differ from the SOC's initial estimated impact figure recorded at the time of the incident. Reportable event: any SOC-logged incident meeting the threshold for inclusion in the quarterly board",
+    "page": 11,
+    "section": "9. Appendix A — Glossary & Supplementary Notes",
+    "kind": "text",
+    "id": "chunk-033"
+  },
+  {
+    "text": "[Section: 9. Appendix A — Glossary & Supplementary Notes | Page 11 | text]\nReportable event: any SOC-logged incident meeting the threshold for inclusion in the quarterly board report, as defined in the company's Incident Response Policy v3 (not reproduced in this dossier). This dossier was compiled for internal review purposes and should not be distributed outside the organization without sign-off from the Head of Finance & Operations.",
+    "page": 11,
+    "section": "9. Appendix A — Glossary & Supplementary Notes",
+    "kind": "text",
+    "id": "chunk-034"
+  },
+  {
+    "text": "[Section: 10. Appendix B — Scanned Vendor Memo | Page 12 | text]\n10. Appendix B — Scanned Vendor Memo The following page is a scanned copy of an internal memo referenced in the vendor and compliance records elsewhere in this dossier. It is embedded as a page image, not as extractable text.",
+    "page": 12,
+    "section": "10. Appendix B — Scanned Vendor Memo",
+    "kind": "text",
+    "id": "chunk-035"
+  },
+  {
+    "text": "[Section: Appendix B - Scanned Vendor Memo (OCR of page image) | Page 13 | ocr]\nMERIDIAN GRID SECURITY PVT LTD INTERNAL MEMO To Finance & Operations From : Aarav Mehta, CEO Date 18 September 2024 Re Vendor Contract Renewal SentinelWatch SIEM This memo confirms that the SentinelWatch SIEM contract (see Vendor Inventory , Section 7) is due for renewal on 15 March 2025 Renewal terms have not yet been finalized with the vendor . Per company policy , any contract renewal exceeding the prior year S value requires sign-off from the CEO before the Head of Finance & Operations may execute the renewal This memo is filed as a scanned copy ; the original signed hard copy is retained in the Powai office records room _ A Mehta [ Scanned document page image only , not OCR 'd 1",
+    "page": 13,
+    "section": "Appendix B - Scanned Vendor Memo (OCR of page image)",
+    "kind": "ocr",
+    "id": "chunk-036"
+  }
+]

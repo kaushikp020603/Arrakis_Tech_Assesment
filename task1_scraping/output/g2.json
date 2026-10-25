@@ -1,0 +1,65 @@
+{
+  "status": "success",
+  "items": [
+    {
+      "product_name": "CrowdStrike Falcon Endpoint...",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "Sophos Endpoint",
+      "star_rating": "4.6/5"
+    },
+    {
+      "product_name": "Huntress Managed EDR",
+      "star_rating": "4.8/5"
+    },
+    {
+      "product_name": "Acronis Cyber Protect Cloud",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "ESET PROTECT",
+      "star_rating": "4.6/5"
+    },
+    {
+      "product_name": "ThreatDown",
+      "star_rating": "4.6/5"
+    },
+    {
+      "product_name": "Check Point Endpoint Security",
+      "star_rating": "4.5/5"
+    },
+    {
+      "product_name": "TrendAI Vision One",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "Iru",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "Arctic Wolf",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "Cynet",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "SentinelOne Singularity...",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "IBM Security MaaS360",
+      "star_rating": "4.2/5"
+    },
+    {
+      "product_name": "Coro Cybersecurity",
+      "star_rating": "4.7/5"
+    },
+    {
+      "product_name": "Cortex XDR",
+      "star_rating": "4.5/5"
+    }
+  ]
+}
